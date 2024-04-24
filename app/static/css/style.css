@@ -1,0 +1,43 @@
+body{
+    background: linear-gradient(to right,rgb(212, 255, 200),white,rgb(212, 255, 200));
+}
+h1{
+    color:black;
+    text-shadow: 2px 4px 4px rgba(46,91,173,0.9);
+}
+
+.card {
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5),0 6px 20px 0 rgba(0,0,0,0.39);
+background:linear-gradient(to right,white, rgb(212,255,200),white);
+margin-bottom : 5%;
+padding : 2%;
+overflow: auto;
+resize: both;
+text-overflow: ellipsis;
+}
+
+.card:hover{
+	background: lightblue;
+}
+
+.submit_form{
+
+	text-align: center;
+    margin: 0 0 0 570px;
+	padding: 5%;
+    width: 100%;
+	background: rgb(212,255,200);
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4),
+				0 6px 20px 0 rgba(0,0,0,0.36);
+    transition: all 0.5s ease-in-out 0s; 
+}
+
+.submit_form:hover{
+    background-color: aquamarine;
+    transition: 0.5s;
+    box-shadow: 0 5px 10px 0 green;
+    border-radius: 6%;
+    transform: rotate(360deg);
+    transition: all 1.5s ease-in-out 0s;
+}
